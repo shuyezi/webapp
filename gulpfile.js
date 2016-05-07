@@ -66,7 +66,10 @@ gulp.task('pagesJs', function(){
 			entry: entrys,
 			output: {
 			    filename: '[name].js'
-			}
+			},
+			module: {
+                loaders:[{test: /\.js$/, loader:"babel-loader?presets[]=es2015"}]
+            }
 		}))
 		.pipe(gIf(env == 'production', uglify()))
 		.pipe(gIf(env == 'production', stripDebug()))
