@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "debug": "gulp build --env debug && cd release_debug && node app.js",
-    "test": "gulp build --env test && cd release_test && node app.js",
-    "production": "gulp build --env production && cd release && node app.js",
+    "test": "gulp build --env test",
+    "production": "gulp build --env production",
     "watch": "gulp watch"
   },
   "keywords": [
