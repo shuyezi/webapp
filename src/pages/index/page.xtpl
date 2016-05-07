@@ -1,0 +1,9 @@
+{{ include ("../../layouts/header.xtpl") }}
+<link rel="stylesheet" type="text/css" href="/index/page.css" />
+
+<h2>This is HTML from index.xtpl</h2>
+<div>我是标题：{{title}}</div>
+{{data.name}}
+
+<script type='text/javascript' src="/index/page.js" ></script>
+{{ include ("../../layouts/footer.xtpl") }}

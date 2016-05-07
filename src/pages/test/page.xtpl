@@ -1,0 +1,7 @@
+{{ include ("../../layouts/header.xtpl") }}
+<link rel="stylesheet" type="text/css" href="/test/page.css" />
+
+<h1>我是测试i</h1>
+
+<script type='text/javascript' src="/test/page.js" ></script>
+{{ include ("../../layouts/footer.xtpl") }}
