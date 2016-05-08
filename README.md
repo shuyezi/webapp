@@ -94,6 +94,7 @@
 	# npm install
 
 	...更多具体命令见package.json
+	...开发时使用watch的话，需要起两个窗口（本地服务器 + watch程序）
 
 
 ## 使用watch并希望浏览器自动刷新的话，需要先安装下面插件（我就当你是在Chrome或者Firefox上面开发的了）
